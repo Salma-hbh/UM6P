@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+/* Dropdown Button */
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 125px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(207, 205, 205, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(211, 211, 211);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #c7c9c7;}
+  /* Style all font awesome icons */
+
+
+/*style form*/
+.var{
+    display: flex;
+    margin-bottom: 11px;
+    margin-left: 25%;
+    
+}
+input[type="text"],input[type="email"],input[type="tel"]{
+    display: flex;
+    margin-bottom: 12px;
+    justify-content:center;
+    margin-left: 40%;
+
+}
+.form-select{
+    display: flex;
+    margin-bottom: 12px;
+    justify-content:center;
+    margin-left: 22%;
+}
+
+/*style liste de coté*/
+.title{
+  margin-top: -400px;
+}
+.container a {
+  color: rgb(236, 230, 230);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: rgb(9, 9, 104);
+  width: 200px;
+  
+}
+  /* Style all font awesome icons */
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*instagram*/
+.fa-instagram{
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+}
+
+/*Linkedin*/
+.fa-linkedin{
+  background-color: #0e76a8;
+  color: white;
+}
+/*youtube*/
+.fa-youtube{
+  background-color: #c4302b;
+  color: white;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+.connexion{
+    display: flex;
+}
+.mb-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+input[type=text]{
+    display: flex;
+    margin-bottom: 11px;
+    justify-content: center;
+    margin-left: 40%;
+}
+input[type=password]{
+    display: flex;
+    margin-bottom: 11px;
+    margin-left: 40%;
+}
+.Username{
+    display: flex;
+    margin-bottom: 11px;
+    justify-content: center;
+    margin-left: 50%;
+}
+.Password{
+    display: flex;
+    margin-bottom: 11px;
+    justify-content: center;
+    margin-left: 50%;
+}
